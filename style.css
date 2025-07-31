@@ -189,7 +189,7 @@ body {
     color: #c3e88d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .terminal-container {
         padding: 10px;
     }
@@ -197,14 +197,59 @@ body {
     .terminal {
         padding: 15px;
         font-size: 13px;
+        min-height: 400px;
+    }
+    
+    .terminal-header {
+        padding: 8px 12px;
+    }
+    
+    .terminal-button {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .terminal-title {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .ascii-art {
+        display: none;
     }
     
     .table {
         font-size: 12px;
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
     }
     
     .table th,
     .table td {
         padding: 6px 8px;
+        min-width: 80px;
+    }
+    
+    .prompt-line {
+        margin-bottom: 8px;
+    }
+    
+    .skill-category {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+    
+    .skill-list {
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    
+    .suggestions {
+        max-height: 150px;
+    }
+    
+    .suggestion-item {
+        padding: 6px 10px;
     }
 }
