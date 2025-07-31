@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Tabares - CV Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-button close"></div>
+            <div class="terminal-button minimize"></div>
+            <div class="terminal-button maximize"></div>
+            <div class="terminal-title">bk-tabares@portfolio:~$</div>
+        </div>
+        
+        <div class="terminal">
+            <div id="output">
+                <div class="ascii-art">
+                <pre>
+░████████   ░█████████  ░██     ░██    ░███    ░███    ░██    ░██████████   ░███    ░████████      ░███    ░█████████  ░██████████   ░██████   
+░██    ░██  ░██     ░██  ░██   ░██    ░██░██   ░████   ░██        ░██      ░██░██   ░██    ░██    ░██░██   ░██     ░██ ░██          ░██   ░██  
+░██    ░██  ░██     ░██   ░██ ░██    ░██  ░██  ░██░██  ░██        ░██     ░██  ░██  ░██    ░██   ░██  ░██  ░██     ░██ ░██         ░██         
+░████████   ░█████████     ░████    ░█████████ ░██ ░██ ░██        ░██    ░█████████ ░████████   ░█████████ ░█████████  ░█████████   ░████████  
+░██     ░██ ░██   ░██       ░██     ░██    ░██ ░██  ░██░██        ░██    ░██    ░██ ░██     ░██ ░██    ░██ ░██   ░██   ░██                 ░██ 
+░██     ░██ ░██    ░██      ░██     ░██    ░██ ░██   ░████        ░██    ░██    ░██ ░██     ░██ ░██    ░██ ░██    ░██  ░██          ░██   ░██  
+░█████████  ░██     ░██     ░██     ░██    ░██ ░██    ░███        ░██    ░██    ░██ ░█████████  ░██    ░██ ░██     ░██ ░██████████   ░██████   
+                </pre>
+                </div>
+                
+                <div class="success">Welcome to my interactive CV terminal!</div>
+                <div class="info">Type 'help' to see available commands or use Tab for suggestions.</div>
+                <div class="warning">Pro tip: Try 'whoami', 'skills', 'experience', or 'contact'</div>
+                <br>
+            </div>
+            
+            <div class="input-container">
+                <span class="prompt">visitor@cv-terminal:~$</span>
+                <input type="text" id="command-input" placeholder="Type a command..." autocomplete="off">
+                <div class="suggestions" id="suggestions"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
