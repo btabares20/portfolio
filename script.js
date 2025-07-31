@@ -270,7 +270,8 @@ function executeCommand() {
 
     commandHistory.push(command);
     historyIndex = -1;
-
+    
+    clearTerminal();
     appendOutput(`<div class="prompt-line"><span class="prompt">visitor@cv-terminal:~$</span> <span class="command">${command}</span></div>`);
 
     const [cmd, ...args] = command.toLowerCase().split(' ');
@@ -398,8 +399,8 @@ function clearTerminal() {
         </pre>
         </div>
         
-        <div class="success">Welcome back! Terminal cleared.</div>
-        <div class="info">Type 'help' to see available commands.</div>
+        <div class="success">Welcome to my interactive CV terminal!</div>
+        <div class="info">Type 'help' to see available commands or use Tab for suggestions.</div>
         <div class="warning">Pro tip: Try 'whoami', 'skills', 'experience', or 'contact'</div>
         <br>
     `;
