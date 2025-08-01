@@ -14,7 +14,7 @@ const cvData = {
     },
     experience: [
         {
-            company: "KodeAcross Remote",
+            company: "KodeAcross",
             position: "Mid-Level Software Developer",
             duration: "August 2024 - August 2025",
             location: "Remote",
@@ -447,12 +447,11 @@ function showDate() {
 }
 
 function showHistory() {
-    appendOutput('<div class="success">Command History:</div>');
     if (commandHistory.length === 0) {
         appendOutput('<div class="info">No commands in history yet.</div>');
     } else {
         commandHistory.forEach((cmd, index) => {
-            appendOutput(`<div class="info">${index + 1}  ${cmd}</div>`);
+            appendOutput(`${cmd}`);
         });
     }
 }
