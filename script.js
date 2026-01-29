@@ -324,7 +324,7 @@ function showWhoami() {
     appendOutput(`<div class="string">Backend Developer | Python Specialist | Cloud Enthusiast</div>`);
     appendOutput(`<div>💼 Currently trying to find opportunities</div>`);
     appendOutput(`<div>🎓 BS Information Technology Graduate</div>`);
-    appendOutput(`<div>🚀 2+ years of professional development experience</div>`);
+    appendOutput(`<div>🚀 3+ years of professional development experience</div>`);
 }
 
 function showAbout() {
