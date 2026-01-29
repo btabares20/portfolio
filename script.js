@@ -14,6 +14,19 @@ const cvData = {
     },
     experience: [
         {
+            company: "CGI Philippines",
+            position: "Mid-Level Python Developer",
+            duration: "September 2025 - Current",
+            location: "Taguig City, Metro Manila",
+            techStack: ["Python", "Docker", "Shell"],
+            responsibilities: [
+                "Contributing to migration of GVCE VM-based jobs and scripts to AWS EKS using Python, Docker, and Shell",
+                "Refactoring and testing legacy scripts from multiple languages to run on Python3 and modernized pipelines",
+                "Developing helper tools to streamline team workflows and improve overall efficiency",
+                "Supporting migration efforts for a major financial client, handling hundreds of jobs"
+            ]
+        },
+        {
             company: "KodeAcross",
             position: "Mid-Level Software Developer",
             duration: "August 2024 - August 2025",
@@ -58,9 +71,7 @@ const cvData = {
             degree: "Bachelor of Science in Information Technology",
             duration: "2018-2022",
             location: "Calamba, Laguna"
-        },
-        {
-            institution: "Asian Institute of Computer Studies", 
+        }, { institution: "Asian Institute of Computer Studies", 
             degree: "Information and Communication Technologies",
             duration: "2016-2018",
             location: "Calamba, Laguna"
